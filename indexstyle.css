@@ -1,0 +1,116 @@
+html{
+    background-color: rgb(210, 213, 219);
+    font-family: 'Exo 2', sans-serif;
+}
+
+.nav-list{
+    list-style: none;
+    text-align: center;
+}
+
+.nav-list li{
+    display: inline;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin:0px;
+    padding:0px;
+    background-color: rgba(97,96,111,0.4);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#logo{
+    font-family: 'Rozha One', serif;
+}
+
+.buttons:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.buttons{
+    background-color: white; 
+    color: black; 
+    border: 3px solid #008CBA;
+}
+
+a{
+    text-decoration: none;
+}
+
+.home{
+    color: black;
+}
+
+.projects{
+    color:black;
+    
+}
+
+.contact{
+    color: black;
+}
+
+#index{
+    background-image: url(http://u01.appmifile.com/images/2016/06/19/d2f383a2-2e76-44b8-acab-283771f7be80.jpg);
+}
+
+#dress{
+    color:white;
+    font-family: 'Calligraffitti';
+    font-size: 30px;
+    margin: 100px;
+    padding: 23px;
+    text-align: center;
+    background-color: rgba(177, 134, 77, 0.3);
+    border: 2px solid teal;
+}
+
+#link{
+    color: white;
+}
+
+#hot{
+    padding:5px;
+    margin-right: 20px;
+    margin-left: 2px;
+    border: 10px;
+    width: 600px;
+    height:600px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#cold{
+    position: absolute;
+    padding: 5px;
+    border: 10px;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.slideshow-container{
+    padding:200px;
+    margin-left: 100px;
+    width:100px; 
+    height:100px; 
+    text-align:center; 
+    
+}
+
+.greeting{
+    padding:50px;
+    text-align:center;
+    background-color: white;
+    border-style: groove;
+    font-family: 'Exo 2', sans-serif;
+    
+}
+
